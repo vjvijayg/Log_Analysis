@@ -37,3 +37,14 @@ what kind of articles the site's readers like.
     from log where status similar to '404%' 
     group by date order by errors desc;
     ```
+    ```
+    create view request_log as
+    select time::timestamp::date as date, count(*) as requests
+    from log group by date order by requests desc;
+    ```
+    ```
+    create view error_rate as
+    select error_log.date as day, error_log.errors::float/requests_log.requests*100 as error_ratio
+    from error_log join request_log on error_log.date=requests_log.date
+    order by error_ratio desc limit 10;
+    ```
