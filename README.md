@@ -10,7 +10,7 @@ what kind of articles the site's readers like.
 ## Implementation:
 1. Navigate to full-stack-nanodegree-vm/vagrant directory through the command prompt or terminal.
 2. Execute `vagrant up` command
-3. Execute `vagrant ssh` command to login the Virtual Machine[You may need login details](https://www.vagrantup.com/docs/boxes/base.html)
+3. Execute `vagrant ssh` command to login the Virtual Machine [you may need login details](https://www.vagrantup.com/docs/boxes/base.html)
 4. Change the directory after successful `vagrant ssh` execute cd /vagrant 
 5. To load and run the News Database use `psql -d news -f newsdata.sql`.
 6. Create views listed below
