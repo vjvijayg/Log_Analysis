@@ -48,3 +48,5 @@ what kind of articles the site's readers like.
     from error_log join request_log on error_log.date=requests_log.date
     order by error_ratio desc limit 10;
     ```
+
+Please refer to the wiki to find more about project.
