@@ -50,9 +50,9 @@ what kind of articles the site's readers like.
     ```
 
 #### Software and tools used:
-1. Vagrant
-2. Virtual Box
-3. Git bash
+1. [Vagrant](https://www.vagrantup.com/)
+2. [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
+3. [Git bash](https://git-scm.com/downloads)
 
 #### Skills gained:
 1. Sql (Postgresql)
