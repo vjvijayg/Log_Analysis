@@ -1,5 +1,5 @@
 # Udacity Log_Analysis
-Udacity log analysis project is to build an internal reporting tool that will anlyze information from the newspaper database to discover
+Udacity log analysis project is to build an internal reporting tool that will analyze information from the newspaper database to discover
 what kind of articles the site's readers like. 
 
 ## Installation and Setup:
@@ -44,8 +44,8 @@ what kind of articles the site's readers like.
     ```
     ```
     create view error_rate as
-    select error_log.date as day, error_log.errors::float/requests_log.requests*100 as error_ratio
-    from error_log join request_log on error_log.date=requests_log.date
+    select error_log.date as day, error_log.errors::float/request_log.requests*100 as error_ratio
+    from error_log join request_log on error_log.date=request_log.date
     order by error_ratio desc limit 10;
     ```
 
