@@ -1,4 +1,4 @@
-#! /usr/bin/env
+#! /usr/bin/env python
 import psycopg2
 
 """ Importing the psycopg2 library for Postgresql Database """
@@ -15,7 +15,7 @@ def articles():
         group by articles.title\
         order by views desc limit 3;")
     article = c.fetchall()
-    print ("Popular articles of all time are: \n")
+    print("Popular articles of all time are: \n")
     for (name, count) in article:
         print("    {} - {} views".format(name, count))
     print("-" * 70)
@@ -33,7 +33,7 @@ def authors():
         group by authors.name\
         order by views desc;")
     author = c.fetchall()
-    print ("Popular authors of all time are: \n")
+    print("Popular authors of all time are: \n")
     for (name, count) in author:
         print("    {} - {} views".format(name, count))
     print("-" * 70)
@@ -49,9 +49,9 @@ def errors():
         from error_rate\
         limit 1;")
     error = c.fetchall()
-    print ("Highest error rate on: \n", error)
+    print("Highest error rate on: \n")
     for (date, percentage) in error:
-        print("    {} - {} % errors".format(date, percentage))
+        print(" {0:%B %d, %Y} - {1:.2f} % errors".format(date, percentage))
     print("-" * 70)
     pg.close()
 
