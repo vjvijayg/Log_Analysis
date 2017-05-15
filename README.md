@@ -49,4 +49,13 @@ what kind of articles the site's readers like.
     order by error_ratio desc limit 10;
     ```
 
+#### Software and tools used:
+1. Vagrant
+2. Virtual Box
+3. Git bash
+
+#### Skills gained:
+1. Sql (Postgresql)
+2. Python programming
+
 Please refer to the wiki to find more about project.
