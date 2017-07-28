@@ -59,3 +59,31 @@ what kind of articles the site's readers like.
 2. Python programming
 
 Please refer to the wiki to find more about project.
+
+## Welcome to the Log_Analysis project, which is the part of the [Full Stack Web Developer Nanodegree course](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004)
+***
+### About Project
+
+Creating a internal tool which generates meaningful reports for the Newspaper Database, which has Articles, Authors and log table using postgresql and python script.
+The database contains newspaper articles, as well as the web server log for the site. The log has a database row for each time a reader loaded a web page.
+
+
+### Tasks
+Analyzing data from the logs of a web service to answer questions such as 
+1. What are the most popular three articles of all time?
+2. Who are the most popular article authors of all time?
+3. On which days did more than 1% of requests lead to errors? using advanced SQL queries.
+
+### Output of the report
+Building an informative summary from logs is a real task that comes up very often in software engineering.
+
+![Sample output of the tool](https://github.com/vjvijayg/Log_Analysis/blob/master/Output.png?raw=true)
+
+#### Software and tools used:
+1. Vagrant
+2. Virtual Box
+3. Git bash
+
+#### Skills gained:
+1. Sql
+2. Python Script
