@@ -1,6 +1,6 @@
 # Udacity Log_Analysis
 Udacity log analysis project is to build an internal reporting tool that will analyze information from the newspaper database to discover
-what kind of articles the site's readers like. 
+what kind of articles the site's readers like. Source code can be found [here](https://github.com/vjvijayg/Log_Analysis)
 
 ## Installation and Setup:
 1. Install [Vagrant](https://www.vagrantup.com/) and [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
